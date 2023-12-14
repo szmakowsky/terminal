@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1919f5;
+}
+
+#app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#area-container {
+  width: 80%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+#area {
+  margin-top: 5px;
+  flex-grow: 1;
+  width: 100%;
+  background-color: black;
+  color: green;
+  font-size: 16px;
+  padding: 20px;
+  font-family: monospace;
+  border: none;
+  resize: none;
+}
+
+#container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 20px;
+}
+
+#container input,
+#container button {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 14px;
+  height: 40px;
+  width: 120px;
+}
+
+input[type="text"],
+input[type="file"],
+button {
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 0;
+  border: none;
+  outline: none;
+}
+
+#area {
+  margin-top: 5px;
+  flex-grow: 1;
+  width: 90vw;
+  height: 65vh;
+  background-color: black;
+  color: green;
+  font-size: 16px;
+  padding: 20px;
+  margin-left: -15vw;
+  font-family: monospace;
+  border: none;
+  resize: none;
+}
+
+#messageInput {
+  color: white;
+  background-color: black;
+  width: 200px; 
+  border: none;
+}
+
+#fileInput {
+  color: white;
+  background-color: black;
+  width: 250px !important;
+  border: none;
+}
+
+#btn {
+  color: white;
+  background-color: black;
+  border: none;
+}
